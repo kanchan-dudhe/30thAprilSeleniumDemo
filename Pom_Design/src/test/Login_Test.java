@@ -21,6 +21,7 @@ public class Login_Test extends BestTest {
 	public void verifyLohinPageIsDisplay() {
 		String loginTitle = loginPage.titleOfLoginPage();
 		AssertJUnit.assertEquals(loginTitle, "Login");
+		System.out.println("title of login: "+loginTitle);
 	}
 
 	@Test(priority = -1)
